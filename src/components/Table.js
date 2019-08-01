@@ -21,9 +21,9 @@ export default class Table extends Component {
       <tbody>
       {this.props.data.map( (x,i) =>
         {
-        return <Rows key={i} Rowdata ={x} index={i} />
+        return <Rows fun1= {this.props.fun} key={i} Rowdata ={x} index={i} />
         })}
-  </tbody>
+      </tbody>
     </table>
     );
   }

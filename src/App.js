@@ -58,8 +58,8 @@ export default class App extends Component {
   render() {
     return (
       <>
-        <h1>Main Component</h1>
-        <Table data={this.state.data} />
+        <h1 className="text-center"> Dragon Zoo </h1>
+        <Table fun= {this.changeMainState} data={this.state.data} />
       </>
     );
   }
